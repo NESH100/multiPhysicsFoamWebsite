@@ -189,7 +189,7 @@ params:
     breadcrumb_disable: false
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
     navbar_logo: true #--> This disable/enable navbar logo.
-    navbar_logo_path: "/images/website_logo.svg"
+    navbar_logo_path: "/images/Logos/website_logo.svg"
     # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
     navbar_translucent_over_cover_disable: false
     # Enable to show the side bar menu in its compact state.

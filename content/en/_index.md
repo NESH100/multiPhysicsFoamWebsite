@@ -64,10 +64,10 @@ and **TU Darmstadt**.
 <div style="display: flex; justify-content: center;">
   <div style="display: flex; gap: 10px;">
     <a href="https://ianus-simulation.de/en/">
-      <img src="IANUS_Logo_white.png" alt="Image 1" style="width:200px;">
+      <img src="/static/images/Logos/IANUS_Logo_white.png" alt="Image 1" style="width:200px;">
     </a>
     <a href="https://www.mathematik.tu-darmstadt.de/cmf/cmf_home/index.de.jsp">
-      <img src="TUDa_Logo.png" alt="Image 2" style="width:200px;">
+      <img src="/static/images/Logos/TUDa_Logo.png" alt="Image 2" style="width:200px;">
     </a>
   </div>
 </div>

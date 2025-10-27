@@ -16,6 +16,8 @@ cascade:
 multiRegionFoam, a modular framework for multiphysics simulations in OpenFOAM.
 {{% /pageinfo %}}
 
+![Cats Millie & Neo](https://www.bing.com/images/search?view=detailV2&ccid=7cRYFyLo&id=2CFE603F11F40D73EEEB7A027746ADC2EE6CB644&thid=OIP.7cRYFyLoDEDh4sRtM73vvwHaDg&mediaurl=https%3a%2f%2fimages.pexels.com%2fphotos%2f459225%2fpexels-photo-459225.jpeg%3fcs%3dsrgb%26dl%3ddaylight-environment-forest-459225.jpg%26fm%3djpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.edc4581722e80c40e1e2c46d33bdefbf%3frik%3dRLZs7sKtRncCeg%26pid%3dImgRaw%26r%3d0&exph=2848&expw=6000&q=images&FORM=IRPRST&ck=16C4F1DBBCA4422CA0D5CEB339978C84&selectedIndex=2&itb=0)
+
 ## Prerequisites
 
 {{% alert title="Important Requirement" color="warning" %}} **multiRegionFoam

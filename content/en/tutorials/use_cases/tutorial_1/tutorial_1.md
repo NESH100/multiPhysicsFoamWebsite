@@ -11,6 +11,22 @@ cascade:
 weight: 20
 ---
 
+<img src="/static/img/fig.png" alt="Image 1">
+
+{{< figure src="/content/en/tutorials/use_cases/tutorial_1/Fig-8.png" class="img-responsive text-center" alt="Test Framework">}}
+
+![gRPC performance testing worker diagram](/content/en/tutorials/use_cases/tutorial_1/Fig-8.png)
+
+<img src="/content/en/tutorials/use_cases/tutorial_1/Fig-8.png" alt="Image 1">
+
+<img src="/static/img/fig.png" alt="Image 1">
+
+![gRPC performance testing worker diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/1024px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
+
+{{< figure src="/static/images/fig.png" class="img-responsive text-center" alt="Basic Communication">}}
+
+{{< figure src="/content/en/tutorials/use_cases/tutorial_1/Fig-8.png" class="img-responsive text-center" alt="Test Framework">}}
+
 <div style="max-width: 100%; width: 100%; margin: 0; padding: 0;">
 
 # 1. Forced convection heat transfer from a flat plate
@@ -24,7 +40,9 @@ gradients near the leading edge and within the developing boundary layer.
 
 <img src="/static/images/fig.png" alt="Image 1" style="width:200px;">
 
-![gRPC performance testing worker diagram](/images/fig.png)
+<!-- \static\images\fig.png -->
+
+![gRPC performance testing worker diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/1024px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg)
 
 <img src="/static/images/fig.png"
      alt="Spark Operator Pod Metrics (Test2)"
