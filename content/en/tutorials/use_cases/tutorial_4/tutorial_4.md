@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial 4'
 description: 'Our latest updates and news'
-type: blog # <- important!  "blog"
+type: docs # <- important!  "blog"
 lastmod: 2025-10-10
 weight: 50
 cascade:

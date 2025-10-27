@@ -1,10 +1,11 @@
 ---
 title: 'Tutorial 1'
 description: 'Our latest updates and news'
-type: blog # <- important!  "blog"
+type: docs # <- important!  "blog"
 layout: single
 lastmod: 2025-10-10
 hide_sidebar: true
+
 cascade:
   disableToc: true
 weight: 20
@@ -19,11 +20,21 @@ temperature on its underside. The upper surface of the plate is thermally
 coupled to the fluid. The configuration is arranged to capture strong thermal
 gradients near the leading edge and within the developing boundary layer.
 
+<!-- ![Alt text for my image](https://github.com/NESH100/multiPhysicsFoamWebsite/blob/main/static/images/Figures/FOHPmesh.png) -->
+
+<img src="/static/images/fig.png" alt="Image 1" style="width:200px;">
+
+![gRPC performance testing worker diagram](/images/fig.png)
+
+<img src="/static/images/fig.png"
+     alt="Spark Operator Pod Metrics (Test2)"
+     class="mt-3 mb-3 border rounded">
+
 <figure style="text-align: center;">
   <img
     src="Fig-7.png"
     alt="Fig-7"
-    style="width: 50%; display: block; margin: 20px auto;"
+    style="width: 50%; display: block; margin: 20px auto;
   />
   <figcaption><strong>Figure: 1.1</strong> Computational domain and boundary conditions for the flow over a heated plate</figcaption>
 </figure>

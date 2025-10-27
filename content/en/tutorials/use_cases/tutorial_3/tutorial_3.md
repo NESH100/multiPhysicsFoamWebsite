@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial 3'
 description: 'Our latest updates and news'
-type: blog # <- important!  "blog"
+type: docs # <- important!  "blog"
 lastmod: 2025-10-10
 cascade:
   disableToc: true

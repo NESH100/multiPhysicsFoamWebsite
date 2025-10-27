@@ -1,7 +1,7 @@
 ---
 title: 'Getting Started'
 date: 2025-09-27
-type: 'blog' # <- keeps blog layout
+type: 'docs' # <- keeps blog layout
 disableToc: true
 description: 'Step-by-step guide for beginners'
 authors: ['Naresh']

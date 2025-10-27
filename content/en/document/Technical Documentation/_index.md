@@ -1,5 +1,5 @@
 ---
 title: Documentation
 weight: 20
-type: blog
+type: docs
 ---

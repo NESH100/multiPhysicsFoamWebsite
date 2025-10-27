@@ -1,4 +1,4 @@
-baseURL: "https://nesh100.github.io/PhysicsFoam.github.io/"
+baseURL: "https://nesh100.github.io/multiPhysicsFoam.github.io/"
 title: multiPhysicsFoam
 theme: docsy
 
@@ -49,7 +49,7 @@ languages:
     languageName: English
     title: multiPhysicsFoam # --> Title of the main webpage.
     params:
-      description: Multiregion Foam
+      description: multiPhysics Foam
   # cSpell:disable
   # 'no':
   #   languageName: Norsk

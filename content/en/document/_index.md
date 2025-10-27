@@ -2,7 +2,7 @@
 title: 'Documentation'
 linkTitle: Documentation
 description: 'Technical Documentation'
-type: blog # <- important!  "blog"
+type: docs # <- important!  "blog"
 cascade:
   disableToc: true
 menu:

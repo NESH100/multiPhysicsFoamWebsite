@@ -1,8 +1,9 @@
 ---
 title: 'Tutorial 2'
 description: 'Our latest updates and news'
-type: blog # <- important!  "blog"
+type: docs # <- important!  "docs"
 lastmod: 2025-10-10
+disableMeta: true
 cascade:
   disableToc: true
 weight: 30
@@ -35,6 +36,8 @@ transfer (CHT) takes place.
   <figcaption><strong> Figure 1:</strong>Geometry of the shell-and-tube heat exchanger</figcaption>
 </figure> -->
 
+![Alt text for my image](/static/images/Figures/Fig-8.png)
+
 This particular design includes a shell, tubes, and baffles. Heat transfer
 occurs between two fluids—an **inner fluid**, flowing at a lower temperature
 inside the tubes, and an **outer fluid**, flowing within the shell but outside
@@ -44,8 +47,6 @@ while the baffles help direct the flow on the shell side.
 The case setup is based on a configuration prepared by **SimScale GmbH**,
 publicly available at
 [SimScale Project Repository](https://www.simscale.com/projects/cheunglucia/heat_exchanger_-_cht_simulation/).
-
-![Image 7.2.2 – Computational mesh of the heat exchanger](Fig-8.png)
 
 ![Cats Millie & Neo](https://ianussimulation-my.sharepoint.com/:i:/r/personal/c_habes_ianus-simulation_de/Documents/Projects/multiPhysicsFoam/Images/Figures_Paper_multiRegionFoam/velocity_HTPEM.png?csf=1&web=1&e=iUTxv6)
 
@@ -73,6 +74,8 @@ The **numerical schemes** used are listed in **Table 9**.
 
 The results of the heat exchanger simulation using **monolithic coupling** are
 shown below.
+
+<!-- ![Cats Millie & Neo](https://ianussimulation-my.sharepoint.com/:i:/r/personal/c_habes_ianus-simulation_de/Documents/Projects/multiPhysicsFoam/Images/Figures_Paper_multiRegionFoam/RB09.0019.png?csf=1&web=1&e=Ks6aMU) -->
 
 ![Image 7.2.3 – Final temperature distribution for the heat exchanger simulation](images/usecase7_2_3.png)
 

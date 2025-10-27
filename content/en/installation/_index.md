@@ -1,7 +1,7 @@
 ---
 title: 'Installation'
 description: 'Our latest updates and news'
-type: blog # <- important!  "blog"
+type: docs # <- important!  "docs"
 cascade:
   disableToc: true
 menu:
