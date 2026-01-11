@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://github.com/NESH100/multiPhysicsFoam.github.io"
 title = "multiPhysicsFoam"
 description = "multiPhysicsFoam makes deployment of ML Workflows on Kubernetes straightforward and automated"
 
