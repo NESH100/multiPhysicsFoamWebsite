@@ -17,11 +17,11 @@ gradients near the leading edge and within the developing boundary layer.
 
 <figure style="text-align: center;">
   <img
-    src="/docs/started/images/Fig-7.png"
+    src="https://nesh100.github.io/multiPhysicsFoam.github.io/docs/tutorials/images/Fig-7.png"
     alt="Fig-7"
     style="width: 50%; display: block; margin: 20px auto;">
   </img>
-
+ 
   <figcaption><strong>Figure: 1.1</strong> Computational domain and boundary conditions for the flow over a heated plate</figcaption>
 </figure>
 
