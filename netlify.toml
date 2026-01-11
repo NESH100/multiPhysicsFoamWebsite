@@ -1,0 +1,50 @@
+[build]
+  publish = "public"
+  # setting baseURL is required for `PAGE.Permalink` to correctly include the full `https://DOMAIN/` prefix
+  # which is required for things like `twitter:image` meta tags to work correctly
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify"
+
+[context.deploy-preview]
+  # for deploy previews, the domain will be `https://deploy-preview-PR_NUMBER--competent-brattain-de2d6d.netlify.app/`
+  # which can be read from the `DEPLOY_PRIME_URL` environment variable in Netlify
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+
+[context.production]
+  # for production, the domain will be `https://www.kubeflow.org/`
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify --baseURL https://www.kubeflow.org/"
+
+[[context.deploy-preview.plugins]]
+package = "netlify-plugin-checklinks"
+
+  [context.deploy-preview.plugins.inputs]
+
+  # If a link contains these patterns it will be ignored.
+  skipPatterns = [
+    # ignore absolute links, which are only found in tags like `<meta property="og:url" content="URL_HERE">`
+    # https://github.com/Munter/netlify-plugin-checklinks/issues/388
+    "competent-brattain-de2d6d.netlify.app",
+    "public/docs/examples/shared-resources",
+  ]
+
+[context.deploy-preview.environment]
+  HUGO_ENV = "development"
+  HUGO_VERSION = "0.124.1"
+  NODE_VERSION = "18"
+
+[context.production.environment]
+  HUGO_ENV = "production"
+  HUGO_VERSION = "0.124.1"
+  NODE_VERSION = "18"
+
+[context.branch-deploy.environment]
+  HUGO_ENV = "development"
+  HUGO_VERSION = "0.124.1"
+  NODE_VERSION = "18"
+
+# Headers are added for security best practices.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'self';"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
